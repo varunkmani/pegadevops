@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProductVersion>8.0</ProductVersion>
+    <ProjectGuid>cc80d9fd-1061-449d-967f-2c1ee5169c19</ProjectGuid>
+    <RootNamespace>EmployeeRegisterationRPA</RootNamespace>
+    <AssemblyName>EmployeeRegisterationRPA</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <!-- Custom properties -->
+    <Name>EmployeeRegisterationRPA</Name>
+    <Id>Project-8D4A821DC5A910C</Id>
+    <Version>8.0.1053.0</Version>
+    <TransformationVersion>8.0.1026.0</TransformationVersion>
+    <ConfigurationFile>
+    </ConfigurationFile>
+    <StartupForm>
+    </StartupForm>
+    <TargetLevel>Driver</TargetLevel>
+    <!-- Deployment -->
+    <DeploymentFiles>
+    </DeploymentFiles>
+    <CustomUpgradeVersion>0.0</CustomUpgradeVersion>
+    <MessageDefinition />
+    <DebuggerPlatform>Default</DebuggerPlatform>
+    <StartupApplication />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>True</DebugSymbols>
+    <XmlDocumentation>False</XmlDocumentation>
+    <!-- Deployment -->
+    <DeploymentPackage>True</DeploymentPackage>
+    <DeploymentPath>bin\Debug\</DeploymentPath>
+    <DeploymentVersion>1.3</DeploymentVersion>
+    <DeploymentVersionIncrement>True</DeploymentVersionIncrement>
+    <DeploymentIncludeRunSettings>False</DeploymentIncludeRunSettings>
+    <DeploymentTranslators>True</DeploymentTranslators>
+    <DeploymentAssemblies>True</DeploymentAssemblies>
+    <DeploymentSign>False</DeploymentSign>
+    <DeploymentCertificate>
+    </DeploymentCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>False</DebugSymbols>
+    <XmlDocumentation>False</XmlDocumentation>
+    <!-- Deployment -->
+    <DeploymentPackage>True</DeploymentPackage>
+    <DeploymentPath>bin\Release\</DeploymentPath>
+    <DeploymentVersion>1.13</DeploymentVersion>
+    <DeploymentVersionIncrement>True</DeploymentVersionIncrement>
+    <DeploymentIncludeRunSettings>False</DeploymentIncludeRunSettings>
+    <DeploymentTranslators>True</DeploymentTranslators>
+    <DeploymentAssemblies>True</DeploymentAssemblies>
+    <DeploymentSign>False</DeploymentSign>
+    <DeploymentCertificate>
+    </DeploymentCertificate>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OpenSpanEnvVar>OPENSPAN_APPLICATION_PATH</OpenSpanEnvVar>
+    <OpenSpanPath>$(OPENSPAN_APPLICATION_PATH)</OpenSpanPath>
+  </PropertyGroup>
+  <Import Project="$(OpenSpanPath)\OpenSpan.targets" />
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\log4net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.ActiveX, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.ActiveX.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.DotNet, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.DotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.DotNet.Interfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.DotNet.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.Virtual, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Virtual.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.Windows">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.ApplicationFramework">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Events, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Events.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Interactions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Interactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.IPC, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.IPC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.NativeInterop, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.NativeInterop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Office, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Office.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Pdf.PdfConnector, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Pdf.PdfConnector.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Recording, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Recording.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Script, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Script.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Server.Client, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Server.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.TranslatorIpc, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.TranslatorIpc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.UnitTesting, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.UnitTesting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Virtual.Interfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Virtual.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PdfiumViewer, Version=2.11.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\PdfiumViewer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\PdfSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Automation">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Runtime.Core">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Runtime.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutomationLogic.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4E888A426F149</Id>
+    </Compile>
+    <Compile Include="Emp Registration\EmployeeRegisteration.os">
+      <SubType>Component</SubType>
+      <Id>WindowsAdapter-8D4A82A65B4B4F6</Id>
+    </Compile>
+    <Compile Include="Emp Registration\EMPR_P.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4A821DC477E32</Id>
+    </Compile>
+    <Compile Include="Emp Registration\EMPR_P_NumberSplit.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4A902E3A3CCEB</Id>
+    </Compile>
+    <Compile Include="EmpReg_GC.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8D4A78D69146BD3</Id>
+    </Compile>
+    <Compile Include="PDF\PDF_E_btnStart_Click.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4A8339C9E8FBA</Id>
+    </Compile>
+    <Compile Include="PDF\PDF_P_ExtractAddress.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4DFFE0BCBFFFE</Id>
+    </Compile>
+    <Compile Include="PDF\PDF_P_ExtractCity.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4DFFE408DC3E1</Id>
+    </Compile>
+    <Compile Include="PDF\PDF_P_ExtractCompany.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4DFFE030D668D</Id>
+    </Compile>
+    <Compile Include="PDF\PDF_P_ExtractFax.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4DFFE4FFCE97D</Id>
+    </Compile>
+    <Compile Include="PDF\PDF_P_ExtractName.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4DFFDDA165BB5</Id>
+    </Compile>
+    <Compile Include="PDF\PDF_P_Extractpdf2Excel.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4A831F356B715</Id>
+    </Compile>
+    <Compile Include="PDF\PDF_P_ExtractPhone.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4DFFE4A70E791</Id>
+    </Compile>
+    <Compile Include="PDF\PDF_P_ExtractTitle.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4DFFDD13AEF51</Id>
+    </Compile>
+    <Compile Include="PDF\PDF_P_ExtractZip.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4DFFE451AAF0A</Id>
+    </Compile>
+    <Compile Include="Testing\Component_Excel.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4E873AE17CF77</Id>
+    </Compile>
+    <Compile Include="Testing\Component_Pdf.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4E87EE409EEE5</Id>
+    </Compile>
+    <Compile Include="Testing\Component_WindowsApp.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4E87445286D03</Id>
+    </Compile>
+    <Compile Include="Testing\Logic_Validnumber.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D4E88A087A933A</Id>
+    </Compile>
+    <Compile Include="UI\Main_UI.os">
+      <SubType>Component</SubType>
+      <Id>DesignForm-8D4A823E7D49C4F</Id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Emp Registration" />
+    <Folder Include="Testing" />
+    <Folder Include="PDF" />
+    <Folder Include="UI" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\ImportTypeMap.resx" />
+    <EmbeddedResource Include="Properties\MessageManifest.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Emp Registration\EmployeeRegisteration.res">
+      <DependentUpon>Emp Registration\EmployeeRegisteration.os</DependentUpon>
+      <Deployment>DoNotDeploy</Deployment>
+    </Content>
+  </ItemGroup>
+</Project>

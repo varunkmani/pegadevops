@@ -1,0 +1,172 @@
+<Cache>
+  <Project configuration="" />
+  <DesignComponents>
+    <DesignComponent id="Automator-8D4E888A426F149" className="AutomationLogic" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="WindowsAdapter-8D4A82A65B4B4F6" className="EmployeeRegisteration" type="Adapter" isPublic="True" screenShots="EmployeeRegisteration.screenshots.resx">
+      <BuildReferences>
+        <BuildReference value="DefaultWindowFactoryConfiguration.xml" />
+        <BuildReference value="OpenSpan.ActiveX.x32.dll" />
+        <BuildReference value="OpenSpan.ActiveX.x64.dll" />
+        <BuildReference value="OpenSpan.Brokers.Windows.x32.dll" />
+        <BuildReference value="OpenSpan.Brokers.Windows.x64.dll" />
+        <BuildReference value="openspan.ini" />
+        <BuildReference value="OpenSpan.IPC.tlb" />
+        <BuildReference value="OpenSpan.Native.IPC.x32.dll" />
+        <BuildReference value="OpenSpan.Native.IPC.x64.dll" />
+        <BuildReference value="OpenSpan.RemoteFunctions.x32.dll" />
+        <BuildReference value="OpenSpan.RemoteFunctions.x64.dll" />
+        <BuildReference value="OpenSpan.Scout.x32.dll" />
+        <BuildReference value="OpenSpan.Scout.x64.dll" />
+        <BuildReference value="OpenSpan.Security.x32.dll" />
+        <BuildReference value="OpenSpan.Security.x64.dll" />
+        <BuildReference value="OpenSpan.SharedMemory.x32.dll" />
+        <BuildReference value="OpenSpan.SharedMemory.x64.dll" />
+        <BuildReference value="OpenSpan.Sinon.x32.dll" />
+        <BuildReference value="OpenSpan.Sinon.x64.dll" />
+        <BuildReference value="OpenSpan.Utilities.x32.dll" />
+        <BuildReference value="OpenSpan.Utilities.x64.dll" />
+        <BuildReference value="OpenSpan.Virtual.Interfaces.delegates.tlb" />
+        <BuildReference value="OpenSpan.Virtual.Interfaces.tlb" />
+        <BuildReference value="OpenSpan.WER.x32.dll" />
+        <BuildReference value="OpenSpan.WER.x64.dll" />
+        <BuildReference value="OpenSpan.x32.sys" />
+        <BuildReference value="OpenSpan.x64.sys" />
+      </BuildReferences>
+    </DesignComponent>
+    <DesignComponent id="Automator-8D4A821DC477E32" className="EMPR_P" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="StringExpression-8D4A8426718928B" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="StringExpression-8D4A8453C48529F" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="StringExpression-8D4A8453E302EF8" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="StringExpression-8D4A8462A325204" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="StringExpression-8D4A84631A61CCD" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="StringExpression-8D4A846D1A2D723" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="StringExpression-8D4A846D79DAFA1" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="StringExpression-8D4A847CF07EA7C" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="StringExpression-8D4A848039AB336" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="StringExpression-8D4A8484502C96B" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="NumericExpression-8D4A907C6167CD4" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="StringExpression-8D4A907F850672A" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8D4A902E3A3CCEB" className="EMPR_P_NumberSplit" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="StringExpression-8D4A9049E9850C0" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="GlobalContainer-8D4A78D69146BD3" className="EmpReg_GC" type="GlobalContainer" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4A8339C9E8FBA" className="PDF_E_btnStart_Click" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4DFFE0BCBFFFE" className="PDF_P_ExtractAddress" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4DFFE408DC3E1" className="PDF_P_ExtractCity" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4DFFE030D668D" className="PDF_P_ExtractCompany" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4DFFE4FFCE97D" className="PDF_P_ExtractFax" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="StringExpression-8D4E001B9224EFA" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8D4DFFDDA165BB5" className="PDF_P_ExtractName" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4A831F356B715" className="PDF_P_Extractpdf2Excel" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4DFFE4A70E791" className="PDF_P_ExtractPhone" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="StringExpression-8D4E00273B152AC" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8D4DFFDD13AEF51" className="PDF_P_ExtractTitle" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4DFFE451AAF0A" className="PDF_P_ExtractZip" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4E873AE17CF77" className="Component_Excel" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4E87EE409EEE5" className="Component_Pdf" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4E87445286D03" className="Component_WindowsApp" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D4E88A087A933A" className="Logic_Validnumber" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="DesignForm-8D4A823E7D49C4F" className="Main_UI" type="WinForm" isPublic="True" screenShots="" />
+  </DesignComponents>
+</Cache>

@@ -1,0 +1,10 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="EmployeeRegisterationRPA" fileName="EmployeeRegisterationRPA.dll" assemblyName="EmployeeRegisterationRPA.dll" id="Project-8D4A821DC5A910C" version="8.0.1053.0" deploymentVersion="1.12" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="A22284BFCB3CF33A9A604A8EF5D1EC">
+    <Assemblies>
+      <Assembly value="EmployeeRegisterationRPA.dll" digest="7DFE972C7D9161F544C875586B24C9" />
+    </Assemblies>
+    <TranslatorFiles>
+      <File value="OpenSpan.Adapters.Virtual.dll" digest="AE9CFBED04AE5E045DF6851FE1AF07" />
+    </TranslatorFiles>
+  </CompositeStudioProject>
+</DeploymentManifest>

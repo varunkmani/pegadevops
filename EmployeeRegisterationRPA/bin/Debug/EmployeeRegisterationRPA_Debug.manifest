@@ -1,0 +1,8 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="EmployeeRegisterationRPA" fileName="EmployeeRegisterationRPA.dll" assemblyName="EmployeeRegisterationRPA.dll" id="Project-8D4A821DC5A910C" version="8.0.1053.0" deploymentVersion="1.3" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="D87F834F907910644D3FDFE411D497">
+    <Assemblies>
+      <Assembly value="EmployeeRegisterationRPA.dll" digest="DD5ABA2441816EDFCC7EB888A9AA46" />
+      <Assembly value="EmployeeRegisterationRPA.pdb" digest="097F5D1E24FB0EF7E8003BDB8360A0" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>

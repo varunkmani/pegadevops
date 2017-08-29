@@ -1,0 +1,11 @@
+"Flow : PDF - Text - Windows Application
+
+
+1. Read specific data from PDF file (Invoice_Input_Sample.PDF)
+
+
+2. Create output file in Txt format  (Invoice_Output_Sample.txt)
+
+3. Read the data from Txt file and Post the same into Windows Application"
+
+End.
